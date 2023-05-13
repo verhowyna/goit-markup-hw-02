@@ -2,6 +2,7 @@
   --first-title-color: #2e2f42;
   --second-title-color: #ffffff;
   --first-text-color: #434455;
+  --second-text-color: #f4f4fd;
   --first-background-color: #2e2f42;
   --second-background-color: #f4f4fd;
 }
@@ -189,5 +190,5 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--second-text-color);
 }
