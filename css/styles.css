@@ -1,3 +1,11 @@
+:root {
+  --first-title-color: #2e2f42;
+  --second-title-color: #ffffff;
+  --first-text-color: #434455;
+  --first-background-color: #2e2f42;
+  --second-background-color: #f4f4fd;
+}
+
 body {
   font-family: "Roboto";
   color: #2e2f42;
@@ -19,7 +27,7 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #2e2f42;
+  color: var(--first-title-color);
 }
 
 .logo-web {
@@ -31,7 +39,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--first-title-color);
 }
 
 .nav-link:hover,
@@ -44,7 +52,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--first-text-color);
 }
 
 .address-link:hover,
@@ -55,15 +63,14 @@ body {
 /* -------- HERO -------- */
 
 .hero {
-  background: #2e2f42;
+  background-color: var(--first-background-color);
 }
 
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--second-title-color);
 }
 .hero-btn {
   font-family: inherit;
@@ -73,6 +80,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -87,46 +95,85 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--first-title-color);
 }
 
 .feature-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--first-text-color);
 }
 
 /* -------- SECTION 2 -------- */
 
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  color: var(--first-title-color);
 }
 
 /* -------- SECTION 3 -------- */
+
+.team-section {
+  background-color: var(--second-background-color);
+}
 
 .name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--first-title-color);
 }
 
 .team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--first-text-color);
+}
+
+/* -------- PORTFOLIO-FILTER -------- */
+
+.btn-item {
+  font-family: inherit;
+  background-color: #f4f4fd;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
+}
+
+.btn-item:hover,
+.btn-item:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
+/* -------- CARD CONCEPT -------- */
+
+.card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--first-title-color);
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--first-text-color);
 }
 
 /* -------- FOOTER -------- */
 
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--first-background-color);
 }
 
 .footer-logo-link {
