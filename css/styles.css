@@ -127,6 +127,10 @@ body {
 /* -------- SECTION 3 -------- */
 
 .team-section {
+  background-color: var(--second-background-color);
+}
+
+.team-item {
   background-color: #ffffff;
 }
 
